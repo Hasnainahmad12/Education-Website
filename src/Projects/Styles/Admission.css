@@ -1,0 +1,101 @@
+.admission__process{
+    height: 250px; width: 100%;
+    @apply bg-gray-200
+}
+
+.admission__process h1{
+    font-size: 3em;
+    font-weight: bold;
+    padding: 70px;
+    @apply justify-center items-center text-center
+}
+
+.admission__eligible{
+    height: 208vh;
+    width: 85%;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 1px rgb(103, 103, 206);
+    @apply bg-white
+}
+
+.first__div{
+    height: 21rem;
+    width: 95%;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+.second__div{
+    height: 27rem;
+    width: 95%;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+.victory__img{
+    height: 90px;
+    width: 130px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.victory__img:hover{
+    color: goldenrod;
+    border: 2px solid blue;
+}
+
+.heading{
+    margin-left: 40px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.heading:hover{
+    color: goldenrod;
+}
+
+
+@media (max-width:800px){
+
+.admission__process{
+    height: 200px; width: 100%;
+    @apply bg-gray-200
+    }
+    
+.admission__process h1{
+    font-size: 2em;
+    font-weight: 500;
+
+}
+    
+.admission__eligible{
+    height: 185rem;
+    width: 85%;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 1px rgb(103, 103, 206);
+    @apply bg-white
+    }
+    
+   
+.first__div{
+    height: 45rem;
+    width: 95%;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+.second__div{
+    height: 65rem;
+    width: 95%;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+}

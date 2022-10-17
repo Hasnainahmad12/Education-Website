@@ -1,0 +1,107 @@
+.main{
+    height: 130vh;
+    width: 85%;
+     margin: auto;
+     @apply bg-gray-200
+}
+
+.intro__section{
+    height: 11rem;
+    width: 87%;
+    margin-left: 2rem;
+    background: white;
+}
+
+.vision__head{
+   font-weight: bold;
+   margin-left: 32px;
+   display: flex;
+   gap: 12px;
+   font-size: 18px;
+   line-height: 28px; 
+   /* @apply font-bold ml-8 flex gap-3 text-lg */
+}
+
+.vision__section{
+ @apply h-[65px] w-[87%] ml-8  bg-white 
+
+}
+
+.images__section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    /* @apply flex flex-wrap gap-6 justify-center */
+}
+
+.core__values{
+    @apply font-bold ml-8 flex gap-3 text-lg
+}
+
+.core__section{
+    height: 165px;
+    width: 87%;
+    margin-left: 32px;
+    background: white;
+    /* @apply h-[165px] w-[87%] ml-8  bg-white */
+}
+
+.image__slider{
+    height: 500px;
+    width: 100%;
+}
+
+
+@media (max-width:800px){
+    .main{
+        height: 215vh;
+        width: 85%;
+         margin: auto;
+         @apply bg-gray-200
+    }
+    
+    .intro__section{
+        height: 41rem;
+        width: 87%;
+        margin-left: 2rem;
+        background: white;
+    }
+
+    .vision__section{
+        height: 95px;
+        width: 87%;
+        margin-left: 32px;
+        background: white;
+    } 
+
+    .images__section{
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        /* @apply flex flex-wrap gap-6 justify-center */
+    }   
+
+    .vision__head{
+        font-weight: bold;
+        margin-left: 32px;
+        display: flex;
+        gap: 12px;
+        font-size: 18px;
+        line-height: 28px; 
+        /* @apply font-bold ml-8 flex gap-3 text-lg */
+     }
+     
+    .core__values{
+        font-weight: bold;
+        margin-left: 32px;
+        display: flex;
+        gap: 20px;
+        font-size: large;
+        margin-top: -20px;
+        /* @apply font-bold ml-8 flex gap-3 text-lg  */
+    }
+    
+}

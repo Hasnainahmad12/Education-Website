@@ -1,0 +1,91 @@
+.rules_head{
+    @apply text-5xl font-bold text-center mt-10
+}
+
+.first_rules{
+    height: 20rem;
+    width: 80%;
+    margin: auto;
+    border: 2px solid blue;
+}
+
+.first__heading{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.list__style{
+    margin-left: 45px;
+}
+
+.list__style li{
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.second_rules{
+    height: 28rem;
+    width: 80%;
+    border: 2px solid blue;
+    margin: auto;
+}
+
+.second_rules p{
+    margin-left: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+.third__rules{
+    height: 14rem;
+    width: 80%;
+    border: 2px solid blue;
+    margin: auto;
+}
+
+.last__rules{
+    height: 24rem;
+    width: 80%;
+    border: 2px solid blue;
+    margin: auto;
+}
+
+@media (max-width:800px) {
+    .rules_head{
+        @apply text-4xl font-bold text-center mt-10
+    }
+    
+    .first_rules{
+        height: 38rem;
+        width: 90%;
+        margin: auto;
+        border: 2px solid blue;
+    }
+    .list__style{
+        margin-left: 25px;
+    }
+
+    .second_rules{
+        height: 64rem;
+        width: 90%;
+        border: 2px solid blue;
+        margin: auto;
+    }
+    
+    .third__rules{
+        height: 30rem;
+        width: 90%;
+        border: 2px solid blue;
+        margin: auto;
+    }
+    
+    .last__rules{
+        height: 44rem;
+        width: 90%;
+        border: 2px solid blue;
+        margin: auto;
+    }
+    
+}

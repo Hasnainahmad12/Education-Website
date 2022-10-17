@@ -1,0 +1,79 @@
+.main__contact{
+    height: 470px;
+    width: 80%;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px 1px rgb(103, 103, 206);
+}
+
+.contact__heading{
+    text-align: center;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 64px;
+/* @apply text-center text-5xl font-bold pt-10 pb-16 */
+}
+
+.inside__head{
+    color: rgb(97, 97, 175);
+    @apply text-center font-medium text-4xl pt-14
+}
+
+.contact__message{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.contact__message p{
+    font-size: 17px;
+    font-weight: 500;
+    @apply tracking-wide
+}
+
+
+@media (max-width:800px){
+    .main__contact{
+        height: 420px;
+        width: 80%;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background: white;
+        border: 2px solid white;
+        box-shadow: 0px 0px 15px 1px rgb(103, 103, 206);
+    }
+    
+    .contact__heading{
+        text-align: center;
+        font-size: 28px;
+        line-height: 1;
+        font-weight: 500;
+        padding-top: 30px;
+        padding-bottom: 44px;
+    /* @apply text-center text-5xl font-bold pt-10 pb-16 */
+    }
+
+    .inside__head{
+        color: rgb(97, 97, 175);
+        @apply text-center font-medium text-3xl pt-8
+    }
+
+    .contact__message{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 30px;
+        padding-left: 35px;
+    }
+    
+}

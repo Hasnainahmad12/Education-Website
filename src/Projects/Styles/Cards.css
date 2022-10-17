@@ -1,0 +1,14 @@
+.owner__card{
+    @apply h-[400px] w-[350px] border-2 border-black flex flex-wrap
+}
+
+.owner__icons{
+    justify-content: center;
+    align-items: center;
+    @apply flex opacity-0 text-3xl
+
+}
+
+.owner__card:hover .owner__icons {
+    @apply opacity-100
+}
