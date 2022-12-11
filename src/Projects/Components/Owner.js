@@ -3,6 +3,8 @@ import "../Styles/Owner.css";
 import hasnain from "../Images/hasnain.JPG";
 import hasnain5 from "../Images/hasnain5.jpg";
 import Footer from "../Components/Footer";
+import Fade from "react-reveal/Fade";
+
 
 const Owner = () => {
   return (
@@ -18,6 +20,7 @@ const Owner = () => {
          </div>
             
             <div className='left__side'>
+            
                 <img src={hasnain} className='h-[500px] w-[680px]' alt='' />
             </div>
       </div>
@@ -25,16 +28,19 @@ const Owner = () => {
         {/*Advisor Body */}
         <h2 className='owner__title text-center font-bold text-5xl pt-14 pb-16'>Advisor’s message</h2>
         <div className='owner__main'>
+            <Fade left>
             <div className='owner__message'>
             <p className='font-semibold tracking-wider pt-7 p-8'>“Live as if you were to die tomorrow. Learn as if you were to live forever.” (Mahatma Gandhi)
             Throughout our lives we constantly face various types of challenges which try to prevent our journey towards success. However, in shape of education we have a solution. Education is the only tool that helps us overcome all those challenges in whatever they might be. Education sets the foundation for all progress and development at individual as well as communal level. Laurels College of Sciences with all its capabilities will polish the hidden skills of its students so that the challenges of life might not be able to block their way towards progress.</p><br/>
             <h2 className='owner__heading'>Hasnain Ahmad</h2><br/>
             <h2 className='owner__heading'>BS-Information Technology (AUP Peshawar)</h2><br/>
+           </div>            
+            </Fade>
 
-         </div>
-            
             <div className='left__side'>
+              <Fade right>
                 <img src={hasnain5} className='h-[500px] w-[620px]' alt='' />
+              </Fade>
             </div>
 
         </div>
